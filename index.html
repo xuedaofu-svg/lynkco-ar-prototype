@@ -985,66 +985,6 @@
           flexDirection: 'column',
           alignItems: 'center'
         }}>
-          {/* IP动画区 */}
-          <div style={{
-            width: '100%',
-            height: 200,
-            borderRadius: 24,
-            background: `linear-gradient(145deg, ${COLORS.woodyYellow}15 0%, ${COLORS.buzzBlue}10 100%)`,
-            marginBottom: 28,
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            position: 'relative',
-            boxShadow: `
-              0 8px 40px rgba(255,217,61,0.1),
-              inset 0 0 60px rgba(255,217,61,0.05)
-            `,
-            border: `1px solid ${COLORS.woodyYellow}30`,
-            overflow: 'hidden'
-          }}>
-            {/* 角色展示 */}
-            <div style={{ textAlign: 'center' }}>
-              <div style={{
-                fontSize: 64,
-                filter: 'drop-shadow(0 10px 20px rgba(255,217,61,0.3))'
-              }}>🤠</div>
-              <div style={{
-                marginTop: 8,
-                fontSize: 14,
-                color: COLORS.woodyYellow,
-                fontWeight: 500,
-                textShadow: `0 0 10px rgba(255,217,61,0.5)`
-              }}>胡迪登场</div>
-            </div>
-
-            {/* 跳过按钮 */}
-            <div style={{
-              position: 'absolute',
-              top: 16,
-              right: 16,
-              padding: '8px 16px',
-              background: 'rgba(0,0,0,0.6)',
-              borderRadius: 20,
-              backdropFilter: 'blur(10px)',
-              color: COLORS.textSecondary,
-              fontSize: 12,
-              border: '1px solid rgba(255,255,255,0.1)'
-            }}>跳过 →</div>
-
-            {/* 光效装饰 */}
-            <div style={{
-              position: 'absolute',
-              top: '50%',
-              left: '50%',
-              transform: 'translate(-50%, -50%)',
-              width: 150,
-              height: 150,
-              background: `radial-gradient(circle, rgba(255,217,61,0.2) 0%, transparent 70%)`,
-              borderRadius: '50%'
-            }} />
-          </div>
-
           {/* 中奖结果 */}
           <div style={{ textAlign: 'center', marginBottom: 28 }}>
             <div style={{ fontSize: 16, color: COLORS.textSecondary, marginBottom: 10 }}>恭喜获得</div>
